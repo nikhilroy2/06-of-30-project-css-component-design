@@ -1,0 +1,86 @@
+// ............ Import all Css............
+@import './button/button';
+@import './color/color';
+@import './typography/typography';
+@import './form-component/form-component';
+@import './font/font';
+@import './card/card';
+// ............ Import all Css............End
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary1: #1450D3;
+    --primary2: #3474FD;
+    --primary3: #98B7FB;
+    --secondary1: #21BCDA;
+    --secondary2: #DAF7FB;
+    --accent1: #693BD4;
+    --accent2: #A37EF6;
+    --input-gray: #E6E6E6;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    nav{
+        margin: 0;
+        padding: 7px 0;
+        display: flex;
+        align-items: center;
+        background: var(--secondary1);
+        a{
+            text-decoration: none;
+            color: #fff;
+            padding: .8rem;
+            display: inline-block;
+            margin-right: .3rem;
+            border-radius: 7px;
+
+        }
+    }
+}
+
+
+
+.border{
+    border: solid;
+}
+
+// ........... Some Global Class ............ 
+.d_flex{
+    display: flex;
+}
+.d_inline_block{
+    display: inline-block;
+}
+.d_block{
+    display: block;
+}
+.size_60{
+    width: 60px;
+    height: 60px;
+}
+.size_25{
+    width: 25px;
+    height: 25px;
+}
+.rounded_50{
+    border-radius: 50%;
+}
+.flex_between{
+    display: flex;
+    justify-content: space-between;
+}
+
+// ........... Some Global Class ............ End
+
+// ........... Wrapper Layout. ............. 
+// ........... Wrapper Layout. ............. End

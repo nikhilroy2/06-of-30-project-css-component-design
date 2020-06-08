@@ -1,0 +1,67 @@
+// ........... Card Style .......... 
+.card_wrapper{
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.221);
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: .5rem;
+    min-width: 260px;
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.321);
+    }
+    .card_img_top{
+        height: 140px;
+        position: relative;
+        background: #DCDCDC;
+        i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5rem;
+            color: #fff;
+        }
+        img{
+            object-fit: cover;
+        }
+    }
+    .card_body{
+        padding: 1rem;
+    }
+    .card_footer{
+        padding: 0 1rem 1rem 1rem;
+    }
+
+    &.card_person_wrapper{
+        max-width: 300px;
+        display: flex;
+        padding: .7rem .5rem;
+        align-items: center;
+        .img_wrapper{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            border-radius: 50%;
+            padding: 0 .5rem;
+            background: #D8D8D8;
+            i{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 1.2rem;
+                border-radius: 50%;
+                color: #999;
+            }
+        }
+        .card_follow{
+            flex-grow: 1;
+            text-align: right;
+        }
+        .card_details{
+            padding: 0 1rem;
+        }
+    }
+}
+// ........... Card Style .......... End

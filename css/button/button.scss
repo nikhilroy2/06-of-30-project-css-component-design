@@ -1,0 +1,119 @@
+// .......... button css style ..........
+.btn_d{
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .2rem;
+    position: relative;
+    transition: all .2s;
+    padding: .6rem 1rem;
+    font-weight: 600;
+    background: transparent;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+.btn_icon{
+    &::before{
+        font-family: "Font Awesome 5 Free";
+        color: currentColor;
+        content: '\f004';
+        padding-right: .2rem;
+        font-weight: 900;
+
+    }
+}
+.btn_angle_right{
+    &::after{
+        font-family: "Font Awesome 5 Free";
+        color: currentColor;
+        content: '\f105';
+        padding-right: .2rem;
+        font-weight: 900;
+        vertical-align: middle;
+    }
+}
+// Primary Button ...
+.btn_primary1{
+    background: var(--primary1);
+    color: #fff;
+   
+}
+.btn_primary2{
+    background: var(--primary2);
+    color: #fff;
+}
+.btn_primary3{
+    background: var(--primary3);
+    color: #fff;
+}
+
+
+// Secondary Button... 
+.btn_secondary1{
+    border: 2px solid var(--primary1);
+    color: var(--primary1);
+}
+.btn_secondary2{
+    border: 2px solid var(--secondary1);
+    color: var(--secondary1);
+}
+.btn_secondary3{
+    border: 2px solid var(--accent1);
+    color: var(--accent1);
+}
+
+// Text Button ... 
+
+.btn_text1{
+    color: var(--primary1);
+}
+.btn_text2{
+    color: var(--secondary1);
+}
+.btn_text3{
+    color: var(--accent1);
+}
+
+
+// Steppers button 
+.btn_stepper{
+    padding: .2rem .3rem;
+}
+.btn_stepper_math{
+    border: 1px solid var(--primary1);
+    border-radius: .5rem;
+    button{
+        border: none;
+        border-radius: 0!important;
+    }
+    button:nth-child(1){
+        border-right: 1px solid var(--primary1);
+    }
+}
+.btn_stepper_input{
+    width: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    &:focus{
+     border: none;
+    outline: none;
+    box-shadow: none;
+    }
+}
+.btn_input_math_stepper{
+    border: 1px solid var(--primary1);
+    border-radius: .5rem;
+}
+.btn_stepper_add{
+    padding: .2rem 1rem;
+    border: 1px solid var(--primary1);
+    border-right-color: transparent;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+// .......... button css style ..........End
